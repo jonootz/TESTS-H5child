@@ -3,5 +3,16 @@
   Version="1">
   <TocEntry
     Title="Child Topic Title"
-    Link="/Content/ChildTopic.htm" />
+    Link="/Content/ChildTopic.htm">
+    <TocEntry
+      Title="BlueRedTopic"
+      Link="/Content/BlueRedCHILD.htm">
+      <TocEntry
+        Title="BlueTopic"
+        Link="/Content/BlueCHILD.htm"></TocEntry>
+      <TocEntry
+        Title="RedTopic"
+        Link="/Content/RedCHILD.htm" />
+    </TocEntry>
+  </TocEntry>
 </CatapultToc>
